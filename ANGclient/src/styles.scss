@@ -1,0 +1,45 @@
+// Colors
+.alimentation {
+  color: blueviolet;
+}
+
+.services{
+  color: crimson;
+}
+
+.beaute--sante-et-bien-etre{
+  color: darkgreen;
+}
+
+.restauration{
+  color: royalblue;
+}
+
+.maison-et-deco{
+  color: maroon;
+}
+
+
+.loisirs-et-divertissements {
+  color: fuchsia;
+}
+
+// Display
+ul.categoryList li {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  border: .1rem solid gray;
+  cursor: pointer;
+}
+
+ul.categoryList li.active {
+  color: #ffffff;
+  background-color: grey;
+}
+
+ul.categoryList li:not(:last-of-type) {
+  margin-right: 1rem;
+}
